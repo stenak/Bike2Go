@@ -12,6 +12,8 @@ namespace Bike2Go.Models
     {
         public DbSet<Member> Members { get; set; }
         public DbSet<Experience> Experiences { get; set; }
+
+        public DbSet<Membership> Memberships { get; set; }
         public ApplicationDbContext()
             : base("DefaultConnection")
         {

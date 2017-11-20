@@ -17,5 +17,10 @@ namespace Bike2Go.Models
         public Experience Experience { get; set; }
 
         public int ExperienceId { get; set; }
+
+        public Membership Membership { get; set; }
+
+        public int MembershipId { get; set; }
+        
     }
 }
